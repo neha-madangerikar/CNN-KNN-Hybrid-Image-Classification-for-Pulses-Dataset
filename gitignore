@@ -1,0 +1,6 @@
+*.jpg
+*.jpeg
+*.png
+dataset/
+drive/
+__pycache__/
