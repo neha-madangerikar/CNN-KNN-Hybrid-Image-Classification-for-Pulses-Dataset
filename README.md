@@ -1,30 +1,31 @@
-# CNN + KNN Image Classification (Pulses Dataset)
+# CNN–KNN Hybrid Image Classification of Pulses
 
-This project uses a Convolutional Neural Network (CNN) for feature extraction
-and a K-Nearest Neighbors (KNN) classifier for image classification.
+This project implements a hybrid image classification model where a
+Convolutional Neural Network (CNN) is used for feature extraction and a
+K-Nearest Neighbors (KNN) classifier is used for final prediction of pulse types.
+
+## Methodology
+- Image preprocessing and resizing (64×64)
+- CNN-based feature extraction
+- Feature flattening
+- KNN classification
+- Train–test evaluation
 
 ## Dataset
-~800 images stored in Google Drive under the folder:
-`comp_bio_database_pulses`
+- 800 images (100 per class)
+- Google Drive folder: `comp_bio_database_pulses`
+- Image formats: .jpg, .jpeg, .png
 
-The dataset is not uploaded to GitHub due to size limits.
+### Classes
+Chickpeas, Green Gram, Black Gram, Lentils, Pigeon Pea,
+Kidney Beans, White Peas, Horse Gram
 
-## How to Run
+*Dataset not included due to size limitations.*
 
-1. Upload the dataset folder to your Google Drive.
-2. Open the notebook in Google Colab.
-3. Ensure this path matches your Drive folder:
-
+## Execution
+1. Upload dataset to Google Drive
+2. Open the notebook in Google Colab
+3. Ensure the path is set to:
 ```python
 data_dir = '/content/drive/MyDrive/comp_bio_database_pulses'
-```
 
-4. Run all cells.
-
-## Libraries Used
-- TensorFlow
-- Scikit-learn
-- OpenCV
-- NumPy
-- Matplotlib
-- Pandas
