@@ -17,8 +17,7 @@ K-Nearest Neighbors (KNN) classifier is used for final prediction of pulse types
 - Image formats: .jpg, .jpeg, .png
 
 ### Classes
-Chickpeas, Green Gram, Black Gram, Lentils, Pigeon Pea,
-Kidney Beans, White Peas, Horse Gram
+Split Chickpeas, Green Gram, Red Lentils, Yellow split peas, Split green gram, Kidney beans, Pigeon Peas, Black gram
 
 *Dataset not included due to size limitations.*
 
