@@ -4,7 +4,7 @@ This project uses a Convolutional Neural Network (CNN) for feature extraction
 and a K-Nearest Neighbors (KNN) classifier for image classification.
 
 ## Dataset
-~400 images stored in Google Drive under the folder:
+~800 images stored in Google Drive under the folder:
 `comp_bio_database_pulses`
 
 The dataset is not uploaded to GitHub due to size limits.
